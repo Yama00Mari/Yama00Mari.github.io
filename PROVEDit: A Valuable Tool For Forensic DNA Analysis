@@ -1,0 +1,43 @@
+PROVEDit: A Valuable Tool For Forensic DNA Analysis
+Mariama Njie, Jeanna Matthews
+
+Introduction
+PROVEDit (Project Research Openness for Validation with Empirical Data) is a DNA database and software that can be used to conduct DNA analysis. The PROVEDit DNA database consists of different DNA profiles made from varying number of contributors in diverse conditions (1). Also, in addition to the database, PROVEDit has the NOCit and CEESit software. NOCit is used to determine the number of contributors to a particular DNA sample (2) while the CEESit determines the likelihood that a particular person is a contributor to a mixture of DNA (3). Being in the 21st century (when DNA analysis methods are under scrutiny), PROVEDit proves to be a valuable tool that can be used to determine the differences that exist in different DNA software. Furthermore, it can also be used for software validation. 
+
+
+Body
+The use of DNA analysis is so widespread that it is used in the archeology, determination of paternity, crime investigations, and even tracking lost people (4). One of the most important of the above uses is in crime investigation. During a crime investigation, the analysis of DNA generally depends on the type of DNA being analyzed. In the case of a single-source DNA sample, the analysis is generally easy since the only step conducted is to compare a suspect’s DNA to the sample. More so, the results from this analysis are generally straightforward since DNA samples either match or fail to match (5). 
+
+In cases where the DNA sample is a mixture from two people (one known and the other unknown), it is fairly easily (to a degree) to determine the whether the suspect is a contributor since the known DNA can be ignored. This, in retrospect, leads to a pseudo-single-source DNA. Thus the DNA analysis can be done in the same way as the single-source DNA. The DNA analysis, however, becomes difficult when the DNA sample is from an unknown number of individuals, in unknown proportions and unknown degree of degradation (5). This is when PROVEDit steps in. 
+PROVEDit (both database and software) mainly operate under the principles of Short Tandem Repeats (STR). STRs are mainly repeated sequences of DNA made up of 2-5 (6) base pairs. The significance of STRs is that they are very common in the human genome. Due to the fact that they differ from one person to another, they provide important reference points in determining identity and number of contributors to a particular DNA sample.
+
+The PROVEDit database is made up of over 25,000 DNA profiles that have been synthesized using 144 lab conditions (1). These DNA profiles have been created to simulate different forms in which the DNA collected by crime investigators exists. The database ranges from single source samples to complex mixtures. The mixtures are mainly made up of DNA samples from two to five people combinations. These combinations, however, are in varying proportions (from 50:50 ratios to 99:1) (1). The conditions that the samples are in ranges from degradation (due to enzymatic conditions or sonication), to damage due to UV rays (1). The significance of this database is that it is free and can be accessed by anyone at any time. 
+
+One of the two software created by PROVEDit, CEESit (Computational Evaluation of Evidentiary Signal) is used to determine the likelihood that a suspect is one of the contributors to a DNA mixture. CEESit works by using a fully continuous model under the defense’s hypothesis. It uses a continuous model because it considers both qualitative data (alleles observed) and quantitative data (heights of the peaks) on an electropherogram. The data from the electropherogram is further modelled into a calibrated data set (single source samples with known genotypes). From this, the Likelihood Ratio (LR) distribution is attained. It is the LR distribution that tells us when a suspect’s DNA is present in a sample or not. This is because an LR > 1 supports the prosecutor’s hypothesis (suspect’s DNA is present), while an LR < 1 supports the defense’s hypothesis (states the absence of the suspect’s DNA) (3).
+
+In addition to the LR ratio distribution, CEESit states the p-value of the analysis. The p-value is the likelihood that a random person will have an LR higher than the LR of the suspect. Although the p-value is not necessary to determine whether a suspect is guilty or not, its importance is that it validates the results of the DNA analysis. Moreover, when the CEESit software was tested on 303 DNA samples, a p-value of 10-9 was obtained on analysis with LR greater than 108 (3). Thus stating that the results from the CEESit software are very accurate and dependable.  
+
+
+On the other hand, the NOCit (Number of Contributors) software determines the number of contributors in a particular DNA sample. Although this tool cannot be used to determine whether suspect’s DNA is present or not, it is very useful. It is useful because the Scientific Working Group of DNA Analysis Methods (SWGDAM) recommend forensic reports to indicate the minimum number of contributors in every DNA analysis (2). Thus, the results from the NOCit software can come in handy when comparing the number of contributors stated by different DNA processing software. 
+
+The NOCit software works by calculating the a posteriori probability (APP) of the number of contributors in the sample. APP is a statistical approach used to determine the probability of an event occurring under certain conditions (7). In the NOCit software, the DNA being analyzed is modeled into a calibrated data set (made from 35 single source DNA) and using the continuous model mentioned above. The result of the NOCit is always given in probabilities, and the number with the highest probability represents the number of contributors present in the analyzed DNA sample. When the NOCit was tested on 278 experimental and 40 simulated DNA mixtures, it was found to be accurate in 83% of experimental samples and 85% of the simulated samples (2). Although some margins of inaccuracy were observed, the NOCit’s accuracy is higher than the most accurate pre-existing models (72% of accuracy on experimental samples and 73% on simulated samples) (2). In a nutshell, the NOCit is currently the most accurate software in terms of determining the number of contributors to a DNA sample.  
+
+
+Conclusion
+PROVEDit software and database can play a vital role in the support and growth of forensic DNA. This is because its database can provide researchers (that had no access to DNA data) to validate already existing forensic DNA software or even test the functionality of their own software. Also, the result from the PROVEDit software can be compared with other DNA software to answer one of the most critical questions in forensic DNA “What effect does forensic software systems have on DNA analysis?” More so, the combination of the PROVEDit software and the PROVEDit database can be used as learning tools to understand both the computational and statistical aspects of forensic DNA.  
+
+
+
+
+
+References
+1.	Swaminathan, H.; Grgicak, C. M.; Medard, M.; Lun, D. S. Forensic Science International: Genetics 2018, 32, 62–70
+2.	Swaminathan, H.; Grgicak, C. M.; Medard, M.; Lun, D. S. Forensic Science International: Genetics 2015, 16, 172–180.
+3.	Swaminathan, H.; Grgicak, C. M.; Medard, M.; Lun, D. S. Forensic Science International: Genetics 2016, 22, 149–160
+4.	“DNA testing, 7 common uses of DNA Tests”, EasyDNA
+5.	Dan E. Krane, Wright State University, Dayton, OH, “Forensic DNA Profiling Video Series”
+6.	The biology project, University of Arizona, Introduction to Immunology Tutorial, “What is a Short Tandem Repeat”.
+7.	A posteriori probability. Encyclopedia of Mathematics.
+
+
+ 
