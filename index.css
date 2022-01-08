@@ -1,0 +1,132 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 912px;
+}
+
+.u-section-1 .u-shape-1 {
+  width: 813px;
+  height: 764px;
+  margin: 96px auto 0 20px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 537px;
+  height: 537px;
+  background-image: url("images/mariama.jpg");
+  background-position: 50% 50%;
+  margin: -665px auto 0 215px;
+}
+
+.u-section-1 .u-group-1 {
+  min-height: 316px;
+  width: 475px;
+  margin: -508px 0 60px auto;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 2.75rem;
+  font-family: Oswald, sans-serif;
+  margin: 5px 0 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-style: italic;
+  margin: 20px 0 0;
+}
+
+.u-section-1 .u-text-3 {
+  margin: 20px 0 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1282px;
+  }
+
+  .u-section-1 .u-image-1 {
+    margin-top: -650px;
+    margin-left: 168px;
+  }
+
+  .u-section-1 .u-group-1 {
+    margin-top: -37px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-shape-1 {
+    width: 720px;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-image-1 {
+    margin-top: -641px;
+    margin-left: auto;
+  }
+
+  .u-section-1 .u-group-1 {
+    margin-top: -46px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1166px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    width: 546px;
+    height: 710px;
+    margin-top: 20px;
+    margin-left: -11px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 483px;
+    height: 483px;
+    margin-top: -582px;
+  }
+
+  .u-section-1 .u-group-1 {
+    margin-top: 119px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 827px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    height: 498px;
+    width: 368px;
+    margin-top: 42px;
+    margin-left: -28px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 298px;
+    height: 298px;
+    margin-top: -375px;
+  }
+
+  .u-section-1 .u-group-1 {
+    margin-top: 42px;
+    margin-bottom: 6px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.5rem;
+  }
+}
