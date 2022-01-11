@@ -24,34 +24,4 @@
     width: 340px;
     height: 420px;
   }
-}.u-section-2 .u-sheet-1 {
-  min-height: 865px;
-}
-
-.u-section-2 .u-image-1 {
-  width: 645px;
-  height: 795px;
-  margin: 0 auto 60px 0;
-}
-
-@media (max-width: 767px) {
-  .u-section-2 .u-sheet-1 {
-    min-height: 736px;
-  }
-
-  .u-section-2 .u-image-1 {
-    width: 540px;
-    height: 666px;
-  }
-}
-
-@media (max-width: 575px) {
-  .u-section-2 .u-sheet-1 {
-    min-height: 489px;
-  }
-
-  .u-section-2 .u-image-1 {
-    width: 340px;
-    height: 419px;
-  }
 }
